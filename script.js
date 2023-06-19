@@ -39,7 +39,7 @@ function ajaxRequest(lat, long) {
             const min = String(dateTime.getMinutes()).padStart(2, '0');
             const temperature = Math.round(forecast.main.temp);
             const description = forecast.weather[0].description;
-            const iconPath = `images/${forecast.weather[0].icon}.svg`;
+            const iconPath = `https://kakahiro21.github.io/kakahiro21/${forecast.weather[0].icon}.svg`;
 
             if(index === 0) {
                 const currentWeather = `
