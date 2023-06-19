@@ -58,6 +58,11 @@ main .container {
 #forecast .temp {
     margin-left: 1rem;
     padding-left: 24px;
-    background: url(../images/thermometer.svg) 0 0 no-repeat;
+    background: url(https://kakahiro21.github.io/kakahiro21/thermometer.svg) 0 0 no-repeat;
     background-size: 24px 24px;   
+}
+#now {
+    background-image: url(https://kakahiro21.github.io/kakahiro21/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
